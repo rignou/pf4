@@ -1,0 +1,724 @@
+@media screen and (max-width:768px){
+  header{
+    
+  height: 50px;
+  transition: height 0.2s;
+  }
+  header div.wrap h1{
+    height: initial;
+  }
+  header div.wrap h1 a{
+    
+  width: 155px;
+  height: 25px;
+  margin-left: 21px;
+  }
+  header div.wrap div.ham{
+   display: initial;
+  
+  }
+  header div.wrap div.ham button{
+    border: 0;
+    background-color: transparent; 
+    font-size: 0;
+    position: relative;
+    width: 35px;
+    height: 28px;
+    margin-right: 13px;
+  }
+  header div.wrap ul.gnb{
+    display: none;
+  }
+  header div.wrap aside{
+   position: absolute;
+    max-height: 56px;
+   
+   width: 100%;
+   display: flex;
+   top: 100%;
+   border-bottom: 1px solid #e5e5e5;
+   background-color: #Fff;
+   border-top: 1px solid #e5e5e5;
+  }
+  header div.wrap aside ul.gnb2{
+  gap: 0;
+  width: 100%;
+  }
+  header div.wrap aside ul.gnb2 li{
+    
+  width: 50%;
+  display: flex;
+    
+    
+  }
+  header div.wrap aside ul.gnb2 li:nth-child(1) a{
+    
+  height: 100%;
+  display: flex;
+  align-items: center;
+  }
+  header div.wrap aside ul.gnb2 li:nth-child(2){
+    
+  padding-left: 0;
+  }
+  header div.wrap aside ul.gnb2 li a{
+    font-size: 16px !important;
+    width: 100%;
+    padding: 0 20px;
+  }
+  header div.gnb-menu{
+    display: flex;
+    height: 97vh;
+    padding-top: 86px;
+    padding-bottom: 91px;
+    overflow: auto;
+    box-sizing: border-box;
+  }
+  header div.wrap aside ul.gnb2 li:nth-child(2) a{
+    margin-right:0 !important;
+  }
+  header div.wrap div.ham button::before{
+    content:'';
+    display: block;
+    width: 22px;
+    border: 2px solid;
+    border-radius: 2px;
+    position: absolute;
+    transition:0.2s;
+    top: 4px;
+  }
+  header div.wrap div.ham button::after{
+    content: '';
+    display: block;
+    width: 16px;
+    border: 2px solid;
+    border-radius: 2px;
+    position: absolute;
+    transition:0.2s;
+    left: 10px;
+  }
+  .hault1:before{
+    /*! top:; */
+    transform:translateY(179%) rotate(52deg);
+  }
+  .hault2:after{
+    top:12px;
+    transform:translateX(-23%)translateY(-22%) rotate(-52deg);
+    width: 22px !important;
+  }
+  div#index #title div.titleani div.title1{
+    background-image: url(../img/title1_m.png);
+  
+  }
+  div#index #title div.titleani div.title2{
+    background-image: url(../img/title2_m.png);
+  }
+  div#index #title div.titleani div.title3{
+    background-image: url(../img/title3_m.png);
+  }
+  div#index #title{
+    height: 140vw;
+    margin-bottom: 50px;
+  }
+  div#index #title div.titleani{
+    left: initial;
+  }
+  div#index #title::after{
+    
+  content: '';
+  display: block;
+  left: 7%;
+  bottom: 0;
+  background-color: #00b1b0;
+  transform: rotate(-5deg);
+  z-index: -1;
+  height: 70%;
+  position: absolute;
+  transform-origin: 100% 100%;
+  width: 70%;
+  }
+  div#index #title div.titleani div article h2{
+    font-size:15px;
+    padding: 0 30px;
+  }
+  div#index #title div.titleani div article p{
+    font-size: 30px;
+    padding: 0 30px;
+    letter-spacing: -1.5px;
+    word-break: keep-all;
+  }
+  div#index #title div.titleani div article a{
+    
+  padding: 15px 30px;
+  font-size: 14px;
+  margin-left: 30px;
+  margin-top: 25px;
+  }
+  div#index #title div.titleani div article{
+    
+  height: fit-content !important;
+  padding-top: 80px;
+  }
+  div#index #title div.titleani > ul.slick-dots li{
+  width: 140px;
+  }
+  div#index #title div.titleani > ul.slick-dots{
+  right: initial;
+  bottom: 39px;
+  }
+  div#index #title div.titleani > ul.slick-dots li button::before{
+    
+  width: 150px;
+  border-top: 4px solid #FFF;
+  }
+  div#index #title div.titleani span.number{
+    
+  right: 2%;
+  bottom: 11%;
+  font-size: 13px;
+  letter-spacing: 3px;
+  }
+  div#index #title .btn_pause2.on{
+    display: none;
+  }
+  div#index #title .btn_pause2{
+     display: none;
+  }
+  header div.gnb-menu ul.contain{
+    max-width: 1200px;
+    margin: initial;
+    width: 100%;
+    padding: 0 20px;
+    flex-direction: column;
+    height: 103%;
+  }
+  header div.gnb-menu ul.contain li ul.depth{
+  
+  flex-direction: initial;
+  flex-wrap: wrap;
+  gap: initial;
+  margin-top: 20px;
+  }
+  header div.gnb-menu ul.contain li{
+    width: 100%;
+    max-width: initial;
+  }
+  header div.gnb-menu ul.contain li ul.depth li a{
+   
+  font-size: 16px;
+  }
+  header div.gnb-menu ul.contain li ul.depth li{
+    
+ 
+  min-width: 50%;
+  width: 50%;
+  margin-bottom: 12px;
+  }
+  header div.gnb-menu ul.contain li a{
+    font-size: 18px;
+    
+  }
+  /*  캠페인  */
+  .represent > p.exist{
+    font-size: 16px;
+    margin-bottom: 15px ;
+  }
+  .represent > h2{
+   font-size: 30px;
+  }
+  .represent p.none{
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  #campaign div.wrap div.camp div.camp_explain h3{
+     font-size: 20px;
+  }
+  #campaign div.wrap div.camp div.camp_explain p{
+    font-size: 16px;
+  }
+  #campaign div.wrap div.camp div.camp_explain a{
+    font-size: 14.5px;
+    margin-top: 28px;
+  }
+  #campaign{
+    margin-top: 60px;
+    height: 97vh;
+    margin-bottom: 20px;
+  }
+  #campaign div.wrap{
+    
+  padding: 0 30px;
+  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 23px;
+  }
+  #campaign div.wrap div.camp div.camp_division button.btn_pause3{
+    display: none;
+  }
+  #campaign div.wrap div.camp div.camp_explain{
+    position: initial;
+    width: initial;
+  }
+  #campaign::after{
+    font-size: 5rem;
+  }
+  #campaign div.wrap div.camp div.camp_division div.camp_division_1 img{
+    
+  width: 320px !important;
+  height: 375px;
+  }
+  #campaign div.wrap div.camp div.camp_division div.camp_division_1{
+    
+  width: 320px;
+  height: 375px;
+  margin-left: initial;
+  padding-top: initial;
+  }
+  #campaign div.wrap div.camp div.camp_division div.camp_division_1::after{
+    
+  bottom: 1%;
+  }
+  #campaign div.wrap div.camp div.camp_explain a::after{
+    
+  vertical-align: middle;
+  }
+  #campaign div.wrap div.camp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px  
+  }
+  /*  모금 현황  */
+  div#index #suggestion div.wrap div.suggestion_statistics{
+    
+  display: flex;
+  flex-direction: column;
+  margin-bottom: initial;
+  column-gap: initial;
+  padding-left: 20px;
+  box-sizing: border-box;
+  height:92vh;
+  margin-bottom: 30px;
+  }
+  div#index #suggestion div.wrap div.suggestion_statistics::before{
+    
+  background-image: url(../img/donate_m.jpg);
+  width: 480px;
+  height: 410px;
+  left: 0;
+  background-size: cover;
+  
+  }
+  div#index #suggestion div.wrap div.suggestion_statistics > p{
+    
+  transform: scale(.6);
+  position: absolute;
+  right: 0;
+  top: 31.5%;
+  z-index: 1;
+  }
+  div#index #suggestion div.wrap div.suggestion_statistics div.list{
+    
+  width: 460px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 9%;
+  justify-content: center;
+  background-color: #fff;
+  gap: 14px;
+  z-index: ;
+  padding: 0 25px;
+  box-sizing: border-box;
+  }
+  div#index #suggestion div.wrap div.suggestion_statistics div.list ul{
+    
+  /*! padding-left: 20px; */
+  padding-top: 16px;
+  padding-bottom: 24px;
+  padding-right: 0;
+  /*! width: 94%; */
+  padding-left: 0;
+  }
+  div#index #suggestion div.wrap div.suggestion_statistics div.list ul.money{
+    
+  z-index: 1;
+  border-bottom: 1px solid #e5e5e5;
+  border-right: none;
+  box-sizing: border-box;
+  }
+  
+  div#index #suggestion div.wrap div.suggestion_statistics div.list span{
+    
+  font-size: 16px;
+  }
+  div#index #suggestion div.wrap div.suggestion_statistics div.list ul.money::after{
+    
+  max-width: 64px;
+  top: 0;
+  }
+   div#index #suggestion div.wrap div.suggestion_statistics div.list ul.count::after{
+    
+  max-width: 64px;
+  top: 0;
+  }
+  div#index #suggestion div.wrap div.suggestion_statistics div.represent{
+    
+  transform: initial;
+  background-color: white;
+  padding: 25px 25px 0px 20px;
+  position: absolute;
+  width: 460px;
+  height: 190px;
+  top: 32.5%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  }
+  div#index #suggestion div.wrap div.suggestion_statistics div.list::after{
+    
+  transform: rotate(-6deg);
+  left: 10%;
+  }
+  .mo1{
+ 
+  font-size: 26px;
+  
+  margin-bottom: 10px;
+  }
+  .mo2{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+  }
+  div#index #suggestion div.wrap div.suggestion_statistics div.list ul.count{
+    padding-bottom: 0;
+  }
+   /* 기부가 이끈 도서관 변화    */
+  div#index #suggestion div.wrap div.suggestion_changes{
+    
+  flex-direction: column-reverse;
+  gap: 36px;
+  margin-bottom: initial;
+  padding: 0px 20px;
+  height: 117vh;
+  }
+  div#index #suggestion div.wrap div.suggestion_changes ul.post{
+    
+  flex-direction: column;
+  }
+  div#index #suggestion div.wrap div.suggestion_changes ul.post li h4{
+    font-size: 16px;
+  }
+  div#index #suggestion div.wrap div.suggestion_changes ul.post li p a{
+    font-size: 16px;
+    width: 85%;
+  }
+  div#index #suggestion div.wrap div.suggestion_changes ul.post li a.image img{
+    
+  object-fit: cover;
+  }
+  div#index #suggestion div.wrap div.suggestion_changes ul.post li p a span{
+    display: none;
+  }
+  div#index #suggestion div.wrap div.suggestion_changes ul.post li p{
+    text-align: center;
+    margin-top: 0;
+  }
+  div#index #suggestion div.wrap div.suggestion_changes ul.post li{
+    
+  flex-direction: column;
+  gap: 25px;
+  }
+  div#index #suggestion div.wrap div.suggestion_changes ul.post li a.image:hover::after{
+  transform: rotate(-4deg);
+}
+  div#index #suggestion div.wrap div.suggestion_changes ul.post li p a::after{
+    
+  top: -27%;
+  left: 73%;
+  width: 45px;
+  height: 29px;
+  }
+  div#index #suggestion div.wrap div.suggestion_changes ul.post li a.image{
+    width:440px;
+  }
+  div#index #suggestion div.wrap div.suggestion_changes ul.post li:nth-child(2) p.more a::after{
+    left:75%;
+  }
+  div#index #suggestion::before{
+    height: 94%;
+    top: 7.2%;
+  }
+  /*  자원봉사  */
+  div.suggestion_volunteers div.wrap div.sug_vol_1 h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_1 ul li h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_1 ul li p{
+    font-size: 16px;
+    width: 85%;
+    letter-spacing: -1.4px;
+    line-height: 1.6;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_2 div.sug_vol_2_ani div.suganiani figcaption{
+    font-size: 16px;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_2 a.more{
+    font-size: 16px;
+    right: 33%;
+    bottom: -6%;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_2 a.more span{
+    display: none;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_2 div.sug_vol_2_ani span.number{
+    display: none;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_2 div.sug_vol_2_ani .slick-arrow{
+    display: none !important;
+  }
+  div.suggestion_volunteers .btn_pause{
+    display: none;
+  }
+  div.suggestion_volunteers div.wrap{
+    margin-top:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_1 ul{
+    gap: initial;
+    display: flex;
+    flex-direction: column;
+
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_1{
+    width: 100%;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_1 ul li:nth-child(n+2){
+    border-top: 1px solid #e5e5e5;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_1 ul li{
+    padding: initial;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_1 ul::before{
+    display: none;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_1 ul::after{
+    display: none;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_1 ul li a{
+    transform: scale(0.7);
+    right: 0;
+    top: 38%;
+    
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_1 ul li:nth-child(4) a{
+    top: 44%;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_2{
+    width: 100%;
+    margin-top: 30px;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_2 div.sug_vol_2_ani div.suganiani a{
+    width: 438px;
+    max-height: calc(100vw - 40px);
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_2 div.sug_vol_2_ani ul.slick-dots{
+  width: 100%;
+  left: 1%;
+  bottom: 0%;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_2 div.sug_vol_2_ani ul.slick-dots li{
+    width: 33%;
+    left:-1.5%;
+    margin: 0;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_2 div.sug_vol_2_ani ul.slick-dots li button::before{
+    width: 96%;
+  }
+  div.suggestion_volunteers div.wrap div.sug_vol_2 a.more::after{
+    top: -37%;
+    left: 85%;
+  }
+  /*  도서관 소식   */
+    .represent > p.exist.articlenews{
+  font-size:14px;
+ 
+  margin: 0;
+  overflow: visible;
+  }
+  .represent > h2.articlenews{
+ 
+  font-size:16px;
+  
+  height: initial;
+  margin-top: 0;
+  overflow: visible;
+  }
+  .represent > p.none.articlenews{
+   
+    font-size:14px;
+   
+    height: 65px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  .represent > p.last{
+ 
+    font-size: 11px;
+   
+    margin: 0;
+  }
+  div#index #news{
+   margin:50px 0;
+   padding: 0 20px;
+  }
+  div#index #news div.wrap a.viewall{
+    min-width: 120px;
+    font-size: 14px;
+    padding: 8px 10px;
+    line-height: 2;
+    box-sizing: border-box;
+    left: calc(50% - 63px);
+  }
+  div#index #news div.wrap a.viewall::after{
+    transform: scale(0.75);
+    margin-left:31px;
+    vertical-align: bottom;
+  }
+  div#index #news div.wrap div.bunchofnews .newsani .newbutton{
+    top:9%;
+    left:80%;
+    width: 59px;
+  }
+  div#index #news div.wrap div.bunchofnews article a{
+    width: 100%;
+    padding: 30px 20px;
+  }
+  div#index #news div.wrap div.bunchofnews article{
+    height: calc((100vw - 40px) / 2);
+    width: 436px !important;;
+    margin-left: 2px;
+   
+    margin-bottom: 23px;
+  
+  }
+  div#index #news div.wrap div.bunchofnews article a div.represent{
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+  }
+  div#index #news div.wrap div.bunchofnews article a div.represent p.last::before{
+    width: 11px;
+    height: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  div#index #news div.wrap div.bunchofnews .newsani .slick-list{
+   height: 500px;
+  }
+  div#index #news div.wrap div.bunchofnews .newsani .slick-list > div{
+    height: 100%;
+  }
+  div#index #news div.wrap div.bunchofnews{
+    padding-bottom: 30px;
+  }
+  /* 하단   */
+  footer div.wrap h1 a{
+    width: 140px;
+    height: 22px;
+
+  }
+  footer{
+    height: 100%;
+    padding: 60px 0;
+  }
+  footer div.wrap{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  footer div.wrap ul.fnb li a{
+    font-size: 13px;
+    letter-spacing: -0.5px;
+  }
+  footer div.wrap address{
+    font-size: 13px;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  footer div.wrap ul.fnb2{
+    font-size: 13px;
+    gap: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 13px;
+    line-height: 1.5;
+   
+    text-align: center;
+    /*! align-items: center; */
+    width: 70%;
+  }
+  footer div.wrap p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 25px;
+  }
+  footer div.wrap ul.fnb{
+    height: 100%;
+    line-height: 2;
+    gap: 0px;
+  }
+  footer div.wrap ul.fnb li:nth-child(n+2):nth-child(-n+3)::before{
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  footer div.wrap h1{
+    margin-bottom: 10px;
+  }
+  footer div.wrap address span{
+    text-align: center;
+  }
+  footer div.wrap ul.fnb li{
+    margin-bottom: 0;
+  }
+  footer div.wrap ul.fnb2 li:nth-child(n+2):nth-child(-n+3)::before{
+    margin-right: 0;
+    transform: translateX(-11px);
+  }
+  footer div.wrap ul.fnb2 li{
+    width: 50%;
+  }
+  footer div.wrap ul.fnb2 li:nth-child(3)::before{
+    display: none !important;
+  }
+  footer div.wrap ul.fnb2 li:nth-child(2){
+     transform: translateX(-10px); 
+  }
+  footer div.wrap p br{
+    display: initial;
+  }
+}
